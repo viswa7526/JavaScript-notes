@@ -1,43 +1,25 @@
-# 🚀 JavaScript Notes
+# 📚 JavaScript Notes
 
-A simple and beginner-friendly JavaScript notes project covering core topics like arrays, objects, methods, loops, destructuring, and spread operators. ✨
+Beginner-friendly notes and practical examples for learning JavaScript fundamentals.
 
-## 📌 Project Overview
-This repository is designed for learning and practicing JavaScript fundamentals in a clean and easy-to-follow way. Each file contains practical examples and comments explaining the logic in a basic style. 🧠
+## 🧭 Chapters
 
-## 📁 Included Files
-- `Array.js` — JavaScript array methods and operations 📊
-- `objects.js` — JavaScript objects, nested objects, methods, destructuring, and object utilities 🧩
-- `index.html` — HTML file for quick browser-based learning/demo setup 🌐
+- [📊 Chapter 01: Arrays](./Chapter_01/README.md) — array creation, methods, iteration, destructuring, and spread syntax.
+- [🧩 Chapter 02: Objects](./Chapter_02/README.md) — object properties, methods, nested objects, and utilities.
+- [🌐 Chapter 03: DOM](./Chapter_03/README.md) — an introduction to the Document Object Model.
 
-## ✅ Topics Covered
-- Array creation and modification 🔧
-- Array methods like `push()`, `pop()`, `shift()`, `unshift()`, `splice()`, `slice()` 🔄
-- Sorting, reversing, and iterating arrays 📚
-- `forEach()`, `map()`, `filter()`, `reduce()`, `find()`, `some()`, and `every()` 🧪
-- Object creation and property handling 🏗️
-- Nested objects and methods 🧱
-- `this` keyword 🧭
-- `Object.keys()`, `Object.values()`, `Object.entries()` 🗂️
-- Destructuring and spread operator 🚀
-- Object freezing and copying 🔒
+## ⚙️ Getting Started
 
-## ▶️ How to Use
-1. Open the file in VS Code. 💻
-2. Run it using Node.js or open the HTML file in a browser. 🌍
-3. Read the comments and practice each example. ✍️
+Install [Node.js](https://nodejs.org/), then run a chapter's JavaScript file from the repository root:
 
-Example:
 ```bash
-node Array.js
-node objects.js
+node Chapter_01/01_Array.js
+node Chapter_02/02_Objects.js
+node Chapter_03/03_DOM.js
 ```
 
-## 🎯 Learning Goal
-This project helps beginners understand JavaScript basics with practical examples so they can build confidence before moving to larger projects. 🚀
+> **Note:** Chapter 03 currently contains an introductory DOM definition. DOM examples that interact with a browser should be run in a browser environment.
 
-## 📝 Notes
-This is a learning repository, so the code is intentionally simple and explanatory for easier understanding. 📘
+## 🎓 Learning Approach
 
-## 👨‍💻 Author
-Built for JavaScript learning practice. 💡
+Read the source comments, run the examples, and experiment with the code to build a strong foundation in JavaScript.

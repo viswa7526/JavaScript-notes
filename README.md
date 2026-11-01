@@ -10,15 +10,14 @@ Beginner-friendly notes and practical examples for learning JavaScript fundament
 
 ## ⚙️ Getting Started
 
-Install [Node.js](https://nodejs.org/), then run a chapter's JavaScript file from the repository root:
+Install [Node.js](https://nodejs.org/) to run the Chapter 01 and Chapter 02 examples from the repository root:
 
 ```bash
 node Chapter_01/01_Array.js
 node Chapter_02/02_Objects.js
-node Chapter_03/03_DOM.js
 ```
 
-> **Note:** Chapter 03 currently contains an introductory DOM definition. DOM examples that interact with a browser should be run in a browser environment.
+> **Note:** [Chapter 03](./Chapter_03/README.md) uses browser DOM APIs. Run [03_DOM.js](./Chapter_03/03_DOM.js) from an HTML page in a browser; it cannot be run directly with Node.js.
 
 ## 🎓 Learning Approach
 

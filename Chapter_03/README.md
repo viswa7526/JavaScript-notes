@@ -4,10 +4,17 @@ The **Document Object Model (DOM)** represents an HTML document as a tree of obj
 
 ## 🎯 Chapter Overview
 
-This chapter introduces the DOM and how it connects JavaScript with HTML documents.
+Use JavaScript to select and update HTML elements in the browser.
+
+## 📌 Topics Covered
+
+- Selecting elements by ID, class, and CSS selector
+- Reading and changing text and HTML attributes
+- Creating and inserting elements with `createElement()` and `prepend()`
+- Changing inline styles and adding CSS classes with `classList`
 
 ## 📄 Source File
 
-The [03_DOM.js](./03_DOM.js) file currently contains the introductory definition. Further examples can be added as the chapter develops.
+Explore the examples in [03_DOM.js](./03_DOM.js). They expect the page to contain the elements being selected (such as `h1`, `h2`, `a`, and `div`).
 
-> **Note:** Browser-specific DOM interactions should be explored in a web browser.
+> **Note:** Run this file in a browser with an HTML page, not with Node.js. Open the browser's developer console to see the `console.dir()` and `console.log()` output.
